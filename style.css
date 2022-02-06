@@ -1,0 +1,42 @@
+body,
+html {
+  /*cover the whole lenght of the browser */
+  width: 100%;
+  height: 100%;
+  /* use font Mondserrate of use sans-serif*/
+  font-family: 'Montserrat', sans-serif;
+  /*make image cover the whole page in background and stay centered*/
+  background: url(header.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+/*mae a horizontal line above the button use the HR tag *horizontal tag*/
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+    border-color: #F05F44;
+}
+
+.btn{
+  font-weight: 700;
+  /*make button round at the edges*/
+  border-radius: 300px;
+  border-color: #F05F44 ;
+}
+.btn-primary{
+  background-color: #F05F44;
+}
+.btn-primary:hover{
+  border-width: 10px;
+}
+
+.btn-sk{
+  padding:  1rem 2rem;
+}
+
+.buffer-sk {
+height: 15rem;
+}
